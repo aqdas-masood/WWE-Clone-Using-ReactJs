@@ -1,0 +1,58 @@
+#mainDiv{
+    width: 100%;
+    background-color: rgba(34,34,34,255);
+    /* color: white; */
+    position: fixed;
+    z-index: 1;  /* It's working here, it's stopping to override text on navigation bar */
+    margin-top: 45px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+#logoImage{
+    margin: 10px 40px 11px 25px;
+
+}
+
+#aTags{
+    color: rgba(170,170,170,255);
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+#aTags:hover{
+    color: white;
+}
+
+#logoImage2{
+    width: 110px;
+    height: 28px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+
+.userLogoDiv{
+    margin-left: 20px;
+    /* background-color: white; */
+    padding: 5px 7px 5px 7px;
+    border-radius: 3px;
+}
+
+#userlogoDiv:hover{
+    background-color: white;
+    border-radius: 5px;
+}
+
+#userLogo{
+    /* margin-left: 24px; */
+    height: 21px;
+    border-radius: 2px;
+}
+
+#searchLogo{
+    margin-left: 20px;
+    height: 23px;
+    margin-right: 15px;
+}
+

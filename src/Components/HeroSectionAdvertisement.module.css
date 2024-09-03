@@ -1,0 +1,30 @@
+.mainDiv{
+    /* background-color: aqua; */
+    width: 100%;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#picture1{
+    /* margin-top: 197px; */  /* This margin is used when AfterNavigation component is fixed. */
+    margin-top: 18px;
+    width: 75%;
+    /* position: fixed; */
+    background-color: aqua;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+/* Bootstrap Class Styling */
+/* .BootstrapClass{
+    width: 100%;
+} */
+
+/* #picture2{
+    margin-top: 197px;
+    width: 75%;
+} */

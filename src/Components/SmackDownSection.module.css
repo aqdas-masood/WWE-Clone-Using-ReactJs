@@ -1,0 +1,133 @@
+.mainDiv{
+    /* width: 100; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin-top: 40px;
+}
+
+/* .div1{
+    background-color: transparent;
+} */
+
+.div1Nested1{
+    width: 210px;
+    height: 190px;
+    background-color: rgba(58, 48, 254);
+    text-align: center;
+}
+
+#image1{
+    /* background-color: blue; */
+    width: 165px;
+    margin-top: 35px;
+}
+
+#image2{
+    width: 200px;
+    margin-top: 1px;
+}
+
+.image3{
+    background-color: brown;
+    width: 550px;
+    height: 300px;
+}
+
+.image3:hover{
+    color: white;
+    background-color: white;
+}
+
+
+.div3{
+    background-color: rgb(58, 48, 254);
+    color: rgb(255, 255, 255);
+    /* padding-left: 14px; */
+    width: 410px;
+}
+
+
+.div3Nested1{
+    position: relative;
+    padding: 18px 15px 30px 15px;
+    padding-bottom: 0;
+    margin-left: 14px;
+    background-color: rgba(58, 48, 254);
+
+    width: 300px;
+}
+
+.div3Nested1:hover .p1, .div3Nested1:hover .p2{
+    color: rgb(204, 204, 204);
+}
+
+.p1{
+    margin-top: 12px;
+    font-size: 0.8rem;
+    display: inline-block;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-bottom: 3px;
+
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.p2{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.div3Nested2{
+    width: 100%;
+    background-color: rgb(59, 48, 254);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.aTagClass{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    /* border: 1px solid white; */
+    text-align: center;
+}
+
+#button1{
+    background-color: rgb(40, 18, 203);
+    /* text-align: end; */
+    width: 49%;
+    padding: 15px 30px 15px 30px;
+    /* text-align: center; */
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+#button1:hover{
+    background-color: rgb(31,14,156);
+}
+
+#aImage1{
+    width: 10px;
+    margin-right: 5px;
+}
+
+#button2{
+    background-color: rgb(44, 36, 217);
+    width: 50%;
+    padding: 15px 30px 15px 30px;
+    /* font-size: 12px; */
+    font-weight: 600;
+}
+
+#button2:hover{
+    background-color: rgb(35,29,173);
+    /* background-color: rgb(31,14,156); */
+}
